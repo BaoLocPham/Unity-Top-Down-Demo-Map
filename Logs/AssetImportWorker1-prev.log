@@ -1,0 +1,584 @@
+Using pre-set license
+Built from '2021.1/staging' branch; Version is '2021.1.15f1 (e767a7370072) revision 15165351'; Using compiler version '192528614'; Build Type 'Release'
+OS: 'Windows 10 Home Single Language; OS build 19042.1165; Version 2009; 64bit' Language: 'en' Physical Memory: 8044 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
+
+ COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2021.1.15f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker1
+-projectPath
+E:/StudyingandExaminations/Unity/2D/TopDown/TopDown
+-logFile
+Logs/AssetImportWorker1.log
+-srvPort
+56351
+Successfully changed project path to: E:/StudyingandExaminations/Unity/2D/TopDown/TopDown
+E:/StudyingandExaminations/Unity/2D/TopDown/TopDown
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 113.35 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2021.1.15f1 (e767a7370072)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.1.15f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path E:/StudyingandExaminations/Unity/2D/TopDown/TopDown/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce GTX 1050 (ID=0x1c8d)
+    Vendor:   NVIDIA
+    VRAM:     4019 MB
+    Driver:   30.0.14.7111
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.1.15f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.1.15f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.1.15f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56924
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.1.15f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.004255 seconds.
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 112.98 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.885 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1885ms)
+		BeginReloadAssembly (57ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (546ms)
+			LoadAssemblies (57ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (179ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (35ms)
+			SetupLoadedEditorAssemblies (279ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (10ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (113ms)
+				BeforeProcessingInitializeOnLoad (2ms)
+				ProcessInitializeOnLoadAttributes (119ms)
+				ProcessInitializeOnLoadMethodAttributes (34ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.005930 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image E:\StudyingandExaminations\Unity\2D\TopDown\TopDown\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image E:\StudyingandExaminations\Unity\2D\TopDown\TopDown\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 105.39 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.469 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1470ms)
+		BeginReloadAssembly (172ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (24ms)
+		EndReloadAssembly (1229ms)
+			LoadAssemblies (101ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (432ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (69ms)
+			SetupLoadedEditorAssemblies (510ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (106ms)
+				BeforeProcessingInitializeOnLoad (98ms)
+				ProcessInitializeOnLoadAttributes (277ms)
+				ProcessInitializeOnLoadMethodAttributes (17ms)
+				AfterProcessingInitializeOnLoad (7ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (7ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
+Refreshing native plugins compatible for Editor in 1.00 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3831 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 142.2 MB.
+System memory in use after: 142.3 MB.
+
+Unloading 38 unused Assets to reduce memory usage. Loaded Objects now: 4274.
+Total: 3.556900 ms (FindLiveObjects: 0.332600 ms CreateObjectMapping: 0.160700 ms MarkObjects: 2.914200 ms  DeleteObjects: 0.148100 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  path: Assets/Cainos/Pixel Art Top Down - Basic/Scene/SC All Props.unity
+  artifactKey: Guid(d9a9fd5182a4025429c97a869864056e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cainos/Pixel Art Top Down - Basic/Scene/SC All Props.unity using Guid(d9a9fd5182a4025429c97a869864056e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b83e69aaa7f140426a7016242d0aa4f7') in 0.024689 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000304 seconds.
+  path: Assets/Cainos/Pixel Art Top Down - Basic/Scene/SC Pixel Art Top Down - Basic.unity
+  artifactKey: Guid(86e89bd9e4a9c5245a015cf17e3c0aae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cainos/Pixel Art Top Down - Basic/Scene/SC Pixel Art Top Down - Basic.unity using Guid(86e89bd9e4a9c5245a015cf17e3c0aae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '10a3c174d97c22e85f901c304ecc12f8') in 0.025581 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000578 seconds.
+  path: Assets/Cainos/Pixel Art Top Down - Basic/Scene
+  artifactKey: Guid(5f41ae091d9f7be4798cc5dbc7f22d83) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cainos/Pixel Art Top Down - Basic/Scene using Guid(5f41ae091d9f7be4798cc5dbc7f22d83) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3f7656229a0b52da2e012650d8729512') in 0.007349 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000355 seconds.
+  path: Assets/Scenes/SampleScene.unity
+  artifactKey: Guid(2cda990e2423bbf4892e6590ba056729) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/SampleScene.unity using Guid(2cda990e2423bbf4892e6590ba056729) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c403d403cd3ee8c452e4320645f705b7') in 0.029596 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 145.414980 seconds.
+  path: Assets/Cainos
+  artifactKey: Guid(70d75b6355c8da74ebcbcc5e1cd3b280) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cainos using Guid(70d75b6355c8da74ebcbcc5e1cd3b280) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '38efe0647e9d864b83f6a889c89c2b3f') in 0.012442 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 130.210121 seconds.
+  path: Assets/free-tropical-medieval-city-2d-tileset/PNG/buildings
+  artifactKey: Guid(e4d87d581240ee14fa2dd9fff303426c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/free-tropical-medieval-city-2d-tileset/PNG/buildings using Guid(e4d87d581240ee14fa2dd9fff303426c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'beb53497237cfdc67ee7e37dca5bfd6c') in 0.009328 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 12.023443 seconds.
+  path: Assets/Scenes
+  artifactKey: Guid(131a6b21c8605f84396be9f6751fb6e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes using Guid(131a6b21c8605f84396be9f6751fb6e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'df75b7d1a31c5b4f73fd45661b403b04') in 0.016236 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 12.458058 seconds.
+  path: Assets/Scenes/VillageScence.unity
+  artifactKey: Guid(4403adb092bf1a340a29651836702538) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/VillageScence.unity using Guid(4403adb092bf1a340a29651836702538) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '70b3327c792162f43e0a016bee3cdaac') in 0.012439 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 22.141497 seconds.
+  path: Assets/Scenes/VillageScence.unity
+  artifactKey: Guid(4403adb092bf1a340a29651836702538) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/VillageScence.unity using Guid(4403adb092bf1a340a29651836702538) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd5ed21cb75f0d73d3cc7cc69b44f71d1') in 0.006699 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 265.580739 seconds.
+  path: Assets/free-tropical-medieval-city-2d-tileset/PNG/land/land_1.png
+  artifactKey: Guid(ea8cab0aa6828b245bc02aa4e2bae003) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/free-tropical-medieval-city-2d-tileset/PNG/land/land_1.png using Guid(ea8cab0aa6828b245bc02aa4e2bae003) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '910a8c88fc15f038356bf294319c5852') in 0.133562 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 33.053958 seconds.
+  path: Assets/free-tropical-medieval-city-2d-tileset/PNG/land
+  artifactKey: Guid(cefc211a6a716434c8815b6388014d4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/free-tropical-medieval-city-2d-tileset/PNG/land using Guid(cefc211a6a716434c8815b6388014d4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '80323ba8854fb1adbaf5d46e2e16c907') in 0.010811 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 13.174783 seconds.
+  path: Assets/free-tropical-medieval-city-2d-tileset/PNG/land/land_7.png
+  artifactKey: Guid(e86cdbc5ba830b84d893eb08e80ad4d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/free-tropical-medieval-city-2d-tileset/PNG/land/land_7.png using Guid(e86cdbc5ba830b84d893eb08e80ad4d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '75a37053a097e89736c954507671e7a5') in 0.016998 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 6.937098 seconds.
+  path: Assets/free-tropical-medieval-city-2d-tileset/PNG/land/land_7.png
+  artifactKey: Guid(e86cdbc5ba830b84d893eb08e80ad4d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/free-tropical-medieval-city-2d-tileset/PNG/land/land_7.png using Guid(e86cdbc5ba830b84d893eb08e80ad4d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd6df0b193cdca93882aa933ad3400708') in 0.014001 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 108.900845 seconds.
+  path: Assets/free-tropical-medieval-city-2d-tileset/PNG/land/land_1.png
+  artifactKey: Guid(ea8cab0aa6828b245bc02aa4e2bae003) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/free-tropical-medieval-city-2d-tileset/PNG/land/land_1.png using Guid(ea8cab0aa6828b245bc02aa4e2bae003) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3f20a3fcf90adfaeadc5eba3c80db09d') in 0.030143 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 21.840138 seconds.
+  path: Assets/free-tropical-medieval-city-2d-tileset/PNG/road
+  artifactKey: Guid(d05f7a90d868b3c41987fc30442ca5bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/free-tropical-medieval-city-2d-tileset/PNG/road using Guid(d05f7a90d868b3c41987fc30442ca5bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3d89d94fb63061beb9321aef8abc3084') in 0.007168 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.241026 seconds.
+  path: Assets/free-tropical-medieval-city-2d-tileset/PNG/road/road_1.png
+  artifactKey: Guid(be1a5552863b64b4c809d14fbc2726ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/free-tropical-medieval-city-2d-tileset/PNG/road/road_1.png using Guid(be1a5552863b64b4c809d14fbc2726ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a1a9a4071d98dea3f9117a4bc42583a0') in 0.019120 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.298351 seconds.
+  path: Assets/free-tropical-medieval-city-2d-tileset/PNG/road/road_5.png
+  artifactKey: Guid(1b79bbd3af1e3994c91107ba2d72c5f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/free-tropical-medieval-city-2d-tileset/PNG/road/road_5.png using Guid(1b79bbd3af1e3994c91107ba2d72c5f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3e0e48a1f61332956815b103dddf0394') in 0.013932 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 7.012499 seconds.
+  path: Assets/free-tropical-medieval-city-2d-tileset/PNG/road/road_5.png
+  artifactKey: Guid(1b79bbd3af1e3994c91107ba2d72c5f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/free-tropical-medieval-city-2d-tileset/PNG/road/road_5.png using Guid(1b79bbd3af1e3994c91107ba2d72c5f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8d21dbf3ce4cc36bc16a572c19b2b2cb') in 0.021875 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 5.553848 seconds.
+  path: Assets/free-tropical-medieval-city-2d-tileset/PNG/road/road_9.png
+  artifactKey: Guid(f18ff3a87fdd5ea44807d574fad28cc4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/free-tropical-medieval-city-2d-tileset/PNG/road/road_9.png using Guid(f18ff3a87fdd5ea44807d574fad28cc4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dc199aedd7e28d5c54d3556fa043d8b7') in 0.014403 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.105323 seconds.
+  path: Assets/free-tropical-medieval-city-2d-tileset/PNG/road/road_1.png
+  artifactKey: Guid(be1a5552863b64b4c809d14fbc2726ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/free-tropical-medieval-city-2d-tileset/PNG/road/road_1.png using Guid(be1a5552863b64b4c809d14fbc2726ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '57176c53dab330e0f7d5aeeeaccb23b4') in 0.009707 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 5.421308 seconds.
+  path: Assets/free-tropical-medieval-city-2d-tileset/PNG/road/road_17.png
+  artifactKey: Guid(c9f7293e3415e0148b4d4c652f442c29) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/free-tropical-medieval-city-2d-tileset/PNG/road/road_17.png using Guid(c9f7293e3415e0148b4d4c652f442c29) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b1ac1c58bb43ec1b69d6c48319ccd59c') in 0.025031 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.000718 seconds.
+  path: Assets/free-tropical-medieval-city-2d-tileset/PNG/road/road_14.png
+  artifactKey: Guid(21136d2a0acb8e341b920684d2c21497) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/free-tropical-medieval-city-2d-tileset/PNG/road/road_14.png using Guid(21136d2a0acb8e341b920684d2c21497) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f695fdcb52b5b060c164a4faed4f55b8') in 0.022961 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 12.136996 seconds.
+  path: Assets/free-tropical-medieval-city-2d-tileset/PNG/road/road_5.png
+  artifactKey: Guid(1b79bbd3af1e3994c91107ba2d72c5f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/free-tropical-medieval-city-2d-tileset/PNG/road/road_5.png using Guid(1b79bbd3af1e3994c91107ba2d72c5f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6aa671f1b3c5eafb995c173a2aa48375') in 0.160131 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 25.496719 seconds.
+  path: Assets/free-tropical-medieval-city-2d-tileset/PNG/road/road_16.png
+  artifactKey: Guid(08db8362a3fb2bf4682f713e9103698a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/free-tropical-medieval-city-2d-tileset/PNG/road/road_16.png using Guid(08db8362a3fb2bf4682f713e9103698a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dd73c887b471340b2b34999beeccaba1') in 0.020837 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.126697 seconds.
+  path: Assets/free-tropical-medieval-city-2d-tileset/PNG/road/road_12.png
+  artifactKey: Guid(877f3bd9b2d505b41935a90f0f646b9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/free-tropical-medieval-city-2d-tileset/PNG/road/road_12.png using Guid(877f3bd9b2d505b41935a90f0f646b9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f9f5db18dc60a467feeb03001eb9fbde') in 0.016601 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 16.503979 seconds.
+  path: Assets/free-tropical-medieval-city-2d-tileset/PNG/buildings/building_18/building_1.png
+  artifactKey: Guid(27559398c7d3dac4f9847c1b5bc1db08) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/free-tropical-medieval-city-2d-tileset/PNG/buildings/building_18/building_1.png using Guid(27559398c7d3dac4f9847c1b5bc1db08) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7eda829827b9056336669dec1ebab209') in 0.032045 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.003613 seconds.
+  path: Assets/free-tropical-medieval-city-2d-tileset/PNG/buildings/building_18/building_2.png
+  artifactKey: Guid(6300eaf1891b5954993dc959a605518a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/free-tropical-medieval-city-2d-tileset/PNG/buildings/building_18/building_2.png using Guid(6300eaf1891b5954993dc959a605518a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5f8985d9c98165a25e0da7691e755b88') in 0.022753 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.026964 seconds.
+  path: Assets/free-tropical-medieval-city-2d-tileset/PNG/buildings/building_18/building_3.png
+  artifactKey: Guid(e6192e2d6135d534fb9fa4b461a421a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/free-tropical-medieval-city-2d-tileset/PNG/buildings/building_18/building_3.png using Guid(e6192e2d6135d534fb9fa4b461a421a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fb5cc2c2ff9cbec7fa024588a8a56b64') in 0.018252 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 5.522378 seconds.
+  path: Assets/free-tropical-medieval-city-2d-tileset/PNG/buildings/building_18/building_4.png
+  artifactKey: Guid(53e1fb8ec30693a48ba11912d355cafd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/free-tropical-medieval-city-2d-tileset/PNG/buildings/building_18/building_4.png using Guid(53e1fb8ec30693a48ba11912d355cafd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9fe4a828807afa17d18601e106289bf8') in 0.022282 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.755478 seconds.
+  path: Assets/free-tropical-medieval-city-2d-tileset/PNG/buildings/building_18/building_5.png
+  artifactKey: Guid(fe2f648b65e44b24ebb1d7b4f347227f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/free-tropical-medieval-city-2d-tileset/PNG/buildings/building_18/building_5.png using Guid(fe2f648b65e44b24ebb1d7b4f347227f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5833f6654469e76823d6899cfa3ac272') in 0.023188 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 12.167601 seconds.
+  path: Assets/free-tropical-medieval-city-2d-tileset/PNG/road/road_15.png
+  artifactKey: Guid(d381404d9336a6149b4388ed9f76f484) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/free-tropical-medieval-city-2d-tileset/PNG/road/road_15.png using Guid(d381404d9336a6149b4388ed9f76f484) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '40966c85c9c93a94287712f1374d9c64') in 0.023480 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 139.115062 seconds.
+  path: Assets/free-tropical-medieval-city-2d-tileset/PNG/road/road_1.png
+  artifactKey: Guid(be1a5552863b64b4c809d14fbc2726ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/free-tropical-medieval-city-2d-tileset/PNG/road/road_1.png using Guid(be1a5552863b64b4c809d14fbc2726ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e2321144952287d5b00079b0633cc802') in 0.015161 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 8.165209 seconds.
+  path: Assets/free-tropical-medieval-city-2d-tileset/PNG/road/road_9.png
+  artifactKey: Guid(f18ff3a87fdd5ea44807d574fad28cc4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/free-tropical-medieval-city-2d-tileset/PNG/road/road_9.png using Guid(f18ff3a87fdd5ea44807d574fad28cc4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'af4f3ba19187cc20b5c3dba1229162bb') in 0.010809 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2193.113011 seconds.
+  path: Assets/free-tropical-medieval-city-2d-tileset/PNG/buildings/building_17
+  artifactKey: Guid(2a8cc12d6aa5e16459ef39e795345eec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/free-tropical-medieval-city-2d-tileset/PNG/buildings/building_17 using Guid(2a8cc12d6aa5e16459ef39e795345eec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c2fc3b682ceb48832e1b4412d7e3b907') in 0.008037 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 6.514628 seconds.
+  path: Assets/free-tropical-medieval-city-2d-tileset/PNG/buildings/building_1/building_1.png
+  artifactKey: Guid(a4a451d7dfa22384d80e779033c54c64) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/free-tropical-medieval-city-2d-tileset/PNG/buildings/building_1/building_1.png using Guid(a4a451d7dfa22384d80e779033c54c64) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c7fe0ecd6e3d5faa5fff613d04d950fb') in 0.058087 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.662106 seconds.
+  path: Assets/free-tropical-medieval-city-2d-tileset/PNG/buildings/building_1/building_2.png
+  artifactKey: Guid(d81c17cd5f3b45a4c9f474a678632d20) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/free-tropical-medieval-city-2d-tileset/PNG/buildings/building_1/building_2.png using Guid(d81c17cd5f3b45a4c9f474a678632d20) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '09331491b716290009096f1cdb363541') in 0.020743 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.719961 seconds.
+  path: Assets/free-tropical-medieval-city-2d-tileset/PNG/buildings/building_1/building_3.png
+  artifactKey: Guid(0c12d357de07fd744afa7977064810b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/free-tropical-medieval-city-2d-tileset/PNG/buildings/building_1/building_3.png using Guid(0c12d357de07fd744afa7977064810b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9956d955e9c8683e4780bf47f284761e') in 0.020269 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.169777 seconds.
+  path: Assets/free-tropical-medieval-city-2d-tileset/PNG/buildings/building_1/building_4.png
+  artifactKey: Guid(47f4a6e08857476499c7c23704c81612) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/free-tropical-medieval-city-2d-tileset/PNG/buildings/building_1/building_4.png using Guid(47f4a6e08857476499c7c23704c81612) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4f58264dfdcdf98084b325e3a3faf7e9') in 0.024150 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.255851 seconds.
+  path: Assets/free-tropical-medieval-city-2d-tileset/PNG/buildings/building_1/building_5.png
+  artifactKey: Guid(631fa360ad9f11944b4ca96aab6347c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/free-tropical-medieval-city-2d-tileset/PNG/buildings/building_1/building_5.png using Guid(631fa360ad9f11944b4ca96aab6347c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '08c58165446bd1cd9194e54e94e393ec') in 0.021027 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 281.732565 seconds.
+  path: Assets/free-tropical-medieval-city-2d-tileset/PNG/buildings/building_1/Materials
+  artifactKey: Guid(42b325b1cf3cd1443b192c9a8dbca1c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/free-tropical-medieval-city-2d-tileset/PNG/buildings/building_1/Materials using Guid(42b325b1cf3cd1443b192c9a8dbca1c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5b3311ee343fd730a2e9a81fadb4c70e') in 0.008882 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 138.677605 seconds.
+  path: Assets/free-tropical-medieval-city-2d-tileset/PNG/buildings/building_1/building_8.png
+  artifactKey: Guid(6f849532314e62a43ba1fa0ed6e27b4f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/free-tropical-medieval-city-2d-tileset/PNG/buildings/building_1/building_8.png using Guid(6f849532314e62a43ba1fa0ed6e27b4f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fee15625c576c21dbc55d31c9934cdb0') in 0.023606 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.685537 seconds.
+  path: Assets/free-tropical-medieval-city-2d-tileset/PNG/buildings/building_2/building_1.png
+  artifactKey: Guid(cb6afd65b05cf1c4ab109f9955e03bbd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/free-tropical-medieval-city-2d-tileset/PNG/buildings/building_2/building_1.png using Guid(cb6afd65b05cf1c4ab109f9955e03bbd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '66b0a04100351080fcabf59be29fa6e8') in 0.022097 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 5.582036 seconds.
+  path: Assets/free-tropical-medieval-city-2d-tileset/PNG/buildings/building_2/Materials
+  artifactKey: Guid(0b01f627cc3ec5d4988dec77acb1e448) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/free-tropical-medieval-city-2d-tileset/PNG/buildings/building_2/Materials using Guid(0b01f627cc3ec5d4988dec77acb1e448) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '123a0b2072611929af565a4236f89bc8') in 0.003618 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 109.873770 seconds.
+  path: Assets/free-tropical-medieval-city-2d-tileset/PNG/buildings/building_3/building_1.png
+  artifactKey: Guid(7167667cec22cf0479d9cd85693de76c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/free-tropical-medieval-city-2d-tileset/PNG/buildings/building_3/building_1.png using Guid(7167667cec22cf0479d9cd85693de76c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '85306be51983f937d0647661544b3c33') in 0.042595 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 56.574388 seconds.
+  path: Assets/free-tropical-medieval-city-2d-tileset/PNG/buildings/building_4/building_1.png
+  artifactKey: Guid(1e310d1e3a709fe48a03f94b367e8fcd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/free-tropical-medieval-city-2d-tileset/PNG/buildings/building_4/building_1.png using Guid(1e310d1e3a709fe48a03f94b367e8fcd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3d6630fcfc7232d0da7c1ad5e24c5288') in 0.034389 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.256971 seconds.
+  path: Assets/free-tropical-medieval-city-2d-tileset/PNG/buildings/building_5/building_1.png
+  artifactKey: Guid(17f1684926e9bbc46a20e5ff08da2ccc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/free-tropical-medieval-city-2d-tileset/PNG/buildings/building_5/building_1.png using Guid(17f1684926e9bbc46a20e5ff08da2ccc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd81b2e83097516be88fc909c2b3c69d2') in 0.028280 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.126777 seconds.
+  path: Assets/free-tropical-medieval-city-2d-tileset/PNG/buildings/building_12/building_1.png
+  artifactKey: Guid(9a332d84338845e438ea96a326dc9c9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/free-tropical-medieval-city-2d-tileset/PNG/buildings/building_12/building_1.png using Guid(9a332d84338845e438ea96a326dc9c9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '27f43e911fa4474aa3d7cce6061288bc') in 0.020944 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 164.345183 seconds.
+  path: Assets/free-tropical-medieval-city-2d-tileset/PNG/buildings/building_13/building_1.png
+  artifactKey: Guid(a8f98d358e98858478db7d50a6265c68) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/free-tropical-medieval-city-2d-tileset/PNG/buildings/building_13/building_1.png using Guid(a8f98d358e98858478db7d50a6265c68) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1d48d03a5e4948a9ca326fabbbad8b63') in 0.017282 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 601.003044 seconds.
+  path: Assets/free-tropical-medieval-city-2d-tileset/PNG/decor/decor_4.png
+  artifactKey: Guid(a39d0ece1f75c714197d542e2af2502a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/free-tropical-medieval-city-2d-tileset/PNG/decor/decor_4.png using Guid(a39d0ece1f75c714197d542e2af2502a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5ad900fefe9ddcb9eae4edf6fe19ea60') in 0.023461 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.122932 seconds.
+  path: Assets/free-tropical-medieval-city-2d-tileset/PNG/decor/decor_1.png
+  artifactKey: Guid(d7b005b8dca082f40967a366df7bc8dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/free-tropical-medieval-city-2d-tileset/PNG/decor/decor_1.png using Guid(d7b005b8dca082f40967a366df7bc8dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '117be6003ffa85b03839facb361a4382') in 0.022963 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.863561 seconds.
+  path: Assets/free-tropical-medieval-city-2d-tileset/PNG/decor/decor_2.png
+  artifactKey: Guid(0c3df8f93d7dbee42a7a7ccc96a44d2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/free-tropical-medieval-city-2d-tileset/PNG/decor/decor_2.png using Guid(0c3df8f93d7dbee42a7a7ccc96a44d2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '31d776e99522bfc99dbd2953795750a1') in 0.114971 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.449781 seconds.
+  path: Assets/free-tropical-medieval-city-2d-tileset/PNG/decor/decor_8.png
+  artifactKey: Guid(acdbf2e80e4dd394b9f09e46070bd744) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/free-tropical-medieval-city-2d-tileset/PNG/decor/decor_8.png using Guid(acdbf2e80e4dd394b9f09e46070bd744) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2e76684a0a60887161bd4eae9d71f9f8') in 0.021719 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.442204 seconds.
+  path: Assets/free-tropical-medieval-city-2d-tileset/PNG/decor/decor_10.png
+  artifactKey: Guid(324cc83109d23654fa7720583d77361a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/free-tropical-medieval-city-2d-tileset/PNG/decor/decor_10.png using Guid(324cc83109d23654fa7720583d77361a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eda1387bc033ac54d6bcabd89058a26e') in 0.021238 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 61.448465 seconds.
+  path: Assets/free-tropical-medieval-city-2d-tileset/PNG/decor/greenery_2.png
+  artifactKey: Guid(dd84ded3247a394488b05721e4bac8a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/free-tropical-medieval-city-2d-tileset/PNG/decor/greenery_2.png using Guid(dd84ded3247a394488b05721e4bac8a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '148043afe2fd70caa1254b147e21bb0f') in 0.354078 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 6.533649 seconds.
+  path: Assets/free-tropical-medieval-city-2d-tileset/PNG/decor/decor_15.png
+  artifactKey: Guid(7df8ba553c612394d9799cd56790a6e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/free-tropical-medieval-city-2d-tileset/PNG/decor/decor_15.png using Guid(7df8ba553c612394d9799cd56790a6e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '69c285cf784e501e0e58994c1c5a9215') in 0.020945 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.562675 seconds.
+  path: Assets/free-tropical-medieval-city-2d-tileset/PNG/decor/decor_16.png
+  artifactKey: Guid(31c63fcca1173b54d92c8583a2c7a880) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/free-tropical-medieval-city-2d-tileset/PNG/decor/decor_16.png using Guid(31c63fcca1173b54d92c8583a2c7a880) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '73a1937e5b2782167f0d1409ed0ae6d8') in 0.021146 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.164527 seconds.
+  path: Assets/free-tropical-medieval-city-2d-tileset/PNG/decor/decor_14.png
+  artifactKey: Guid(849ac9be467434043861548f84a00afc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/free-tropical-medieval-city-2d-tileset/PNG/decor/decor_14.png using Guid(849ac9be467434043861548f84a00afc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '726c1ae918a8a3c2eb55735862a6b2b6') in 0.022833 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.118071 seconds.
+  path: Assets/free-tropical-medieval-city-2d-tileset/PNG/decor/decor_6.png
+  artifactKey: Guid(b10ede2f155443749af4d29d723a8f2c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/free-tropical-medieval-city-2d-tileset/PNG/decor/decor_6.png using Guid(b10ede2f155443749af4d29d723a8f2c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6dad5a7fa65725573e7ae58e31b63593') in 0.019447 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.859054 seconds.
+  path: Assets/free-tropical-medieval-city-2d-tileset/PNG/decor/decor_7.png
+  artifactKey: Guid(0080e7d5f5ae129469cd10a1f83a8587) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/free-tropical-medieval-city-2d-tileset/PNG/decor/decor_7.png using Guid(0080e7d5f5ae129469cd10a1f83a8587) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c0def5bb7d659bd84ba0880583cd73de') in 0.019664 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 22.282893 seconds.
+  path: Assets/free-tropical-medieval-city-2d-tileset/PNG/decor/decor_3.png
+  artifactKey: Guid(54d379ca803298b48982ed4bf1436ee9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/free-tropical-medieval-city-2d-tileset/PNG/decor/decor_3.png using Guid(54d379ca803298b48982ed4bf1436ee9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5f1132024701fa75c1d0a0f0e0cea673') in 0.018086 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 437.925267 seconds.
+  path: Assets/free-tropical-medieval-city-2d-tileset/PNG/decor/stones_5.png
+  artifactKey: Guid(4def57755cf4cbc4fa431b0e22dbb47a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/free-tropical-medieval-city-2d-tileset/PNG/decor/stones_5.png using Guid(4def57755cf4cbc4fa431b0e22dbb47a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9ffc73ad851b5b3e3350b740a2e2bba5') in 0.036319 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.372885 seconds.
+  path: Assets/free-tropical-medieval-city-2d-tileset/PNG/decor/stones_6.png
+  artifactKey: Guid(f6b4c86fc517b64458e576ff1b56d52c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/free-tropical-medieval-city-2d-tileset/PNG/decor/stones_6.png using Guid(f6b4c86fc517b64458e576ff1b56d52c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1c5f0f6e0f273f1b0a3bec84be137752') in 0.023414 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.811643 seconds.
+  path: Assets/free-tropical-medieval-city-2d-tileset/PNG/decor/stones_7.png
+  artifactKey: Guid(4d96d7248f96dcc49b477ed96bc33485) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/free-tropical-medieval-city-2d-tileset/PNG/decor/stones_7.png using Guid(4d96d7248f96dcc49b477ed96bc33485) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7241f25d9e8c364a62e376072697d721') in 0.021797 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.010945 seconds.
+  path: Assets/free-tropical-medieval-city-2d-tileset/PNG/decor/tree_1.png
+  artifactKey: Guid(ac87775f837899046805809723791531) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/free-tropical-medieval-city-2d-tileset/PNG/decor/tree_1.png using Guid(ac87775f837899046805809723791531) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '036567f92e4fd788fb33efa52bba7b91') in 0.020881 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 103.023393 seconds.
+  path: Assets/free-tropical-medieval-city-2d-tileset/PNG/decor/stones_1.png
+  artifactKey: Guid(bc1038fd187b45d4a8314465f40b3b96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/free-tropical-medieval-city-2d-tileset/PNG/decor/stones_1.png using Guid(bc1038fd187b45d4a8314465f40b3b96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f6599a70a421242dc793b78246783795') in 0.029473 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.541260 seconds.
+  path: Assets/free-tropical-medieval-city-2d-tileset/PNG/decor/stones_3.png
+  artifactKey: Guid(3ad42562a2340604fb311e5dd77f6fdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/free-tropical-medieval-city-2d-tileset/PNG/decor/stones_3.png using Guid(3ad42562a2340604fb311e5dd77f6fdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd6d6621b3fc3b7d5aa6b569ed0afed67') in 0.029009 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 9.996756 seconds.
+  path: Assets/free-tropical-medieval-city-2d-tileset/PNG/decor/greenery_4.png
+  artifactKey: Guid(e5045d8f9e2fd9f439b7650fab2546e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/free-tropical-medieval-city-2d-tileset/PNG/decor/greenery_4.png using Guid(e5045d8f9e2fd9f439b7650fab2546e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd7bfcc6fff20ba67704271feab04ccab') in 0.025536 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 125.824029 seconds.
+  path: Assets/free-tropical-medieval-city-2d-tileset/PNG/decor/greenery_5.png
+  artifactKey: Guid(3565a5f0943892443961489990b9edcf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/free-tropical-medieval-city-2d-tileset/PNG/decor/greenery_5.png using Guid(3565a5f0943892443961489990b9edcf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'efa56b3b3bea1b8042311530156cac9a') in 0.021718 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 95.904039 seconds.
+  path: Assets/free-tropical-medieval-city-2d-tileset/PNG/decor/decor_9.png
+  artifactKey: Guid(85a8be2a8d30f6d4f9ca5c5368d55c2a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/free-tropical-medieval-city-2d-tileset/PNG/decor/decor_9.png using Guid(85a8be2a8d30f6d4f9ca5c5368d55c2a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '875e7c4a9da8dfe53a1ebc1b3b95820a') in 0.022984 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.978907 seconds.
+  path: Assets/free-tropical-medieval-city-2d-tileset/PNG/decor/decor_11.png
+  artifactKey: Guid(72a830184739729428aa0f48a66951f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/free-tropical-medieval-city-2d-tileset/PNG/decor/decor_11.png using Guid(72a830184739729428aa0f48a66951f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '384f0301cc04627f8b16d83629b7ef61') in 0.017715 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 248.959763 seconds.
+  path: Assets/free-tropical-medieval-city-2d-tileset/PNG/decor/tree_2.png
+  artifactKey: Guid(c107215f8c48bb14689b711e6092a1e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/free-tropical-medieval-city-2d-tileset/PNG/decor/tree_2.png using Guid(c107215f8c48bb14689b711e6092a1e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'db6c5d7c8a4e30c438bc5caba4dced19') in 0.043045 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 47.012130 seconds.
+  path: Assets/free-tropical-medieval-city-2d-tileset/PNG/decor/decor_5.png
+  artifactKey: Guid(39d3922cbe0badb48a2392c9d5e2c07a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/free-tropical-medieval-city-2d-tileset/PNG/decor/decor_5.png using Guid(39d3922cbe0badb48a2392c9d5e2c07a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7a02315afa77e2bc86778445b4a3f2b1') in 0.021619 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 9.233238 seconds.
+  path: Assets/free-tropical-medieval-city-2d-tileset/PNG/buildings/building_1
+  artifactKey: Guid(4d9c5eba6201ec74096ecee7ebcd9d94) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/free-tropical-medieval-city-2d-tileset/PNG/buildings/building_1 using Guid(4d9c5eba6201ec74096ecee7ebcd9d94) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0ef013860da1ab4a60b70aee0b4c7597') in 0.008001 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 23.206708 seconds.
+  path: Assets/free-tropical-medieval-city-2d-tileset/PNG/decor/decor_17.png
+  artifactKey: Guid(f67b12e003b985f47984a1edf4d75d7b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/free-tropical-medieval-city-2d-tileset/PNG/decor/decor_17.png using Guid(f67b12e003b985f47984a1edf4d75d7b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6b0694673a7a7a07ee788b01a4e1ad38') in 0.021741 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 18.525196 seconds.
+  path: Assets/free-tropical-medieval-city-2d-tileset/PNG/decor/decor_18.png
+  artifactKey: Guid(7970ecf855b94934f828e4f31bf297fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/free-tropical-medieval-city-2d-tileset/PNG/decor/decor_18.png using Guid(7970ecf855b94934f828e4f31bf297fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5e14d6ee1ed74d5519c3ea6651968a3f') in 0.016482 seconds 
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
